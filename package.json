@@ -48,6 +48,7 @@
 		}
 	},
 	"keywords": [
+		"pi-package",
 		"pi",
 		"mimo",
 		"xiaomi",
@@ -57,6 +58,9 @@
 		"extension",
 		"coding-agent"
 	],
+	"pi": {
+		"extensions": ["./src/extension.ts"]
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/af/pi-mimo-provider.git"
